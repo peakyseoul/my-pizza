@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
         >
           //Image comes here
           
-           <img src="/src/icon.png" alt="icon"> 
+           <img src="..images/icon.png" alt="icon"> 
           
         </Link>
       </h1>
