@@ -25,6 +25,9 @@ const Header = ({ siteTitle }) => (
           }}
         >
           //Image comes here
+          
+           <img src="/src/icon.png" alt="icon"> 
+          
         </Link>
       </h1>
     </div>
