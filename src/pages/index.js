@@ -12,19 +12,24 @@ const IndexPage = () => (
     <p>Mazali va sifatli pizzalar faqat bizda.</p>
     <p>Biz bilan boglaning. Tel: +998990 040 8008</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
+      src="../images/image-1.png"
+      width={1170}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="main-image"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+
+    <StaticImage
+      src="../images/image-2.png"
+      width={1170}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt="main-image"
+      style={{ marginBottom: `1.45rem` }}
+    />
+
+   
   </Layout>
 )
 
